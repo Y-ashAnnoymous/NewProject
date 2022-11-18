@@ -1,0 +1,111 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(wild.mp4);
+    background-size: cover;
+    position: absolute;
+}
+
+
+.box{
+    height: 380px;
+    width: 300px;
+    position: relative;
+    margin: 6% auto;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+.bg{
+    position: absolute;
+}
+.box{
+    background: rgba( 64, 68, 76, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.btn-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 2px;
+    border-radius: 30px;
+    background: transparent;
+
+}
+
+.lbtn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 50px;
+    transition: .5s;
+}
+#btn{
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 110px;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.grp{
+    top: 100px;
+    position: absolute;
+    width: auto;
+    transition: .5s;
+}
+.inputfield{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 5px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submitbtn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border:0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
